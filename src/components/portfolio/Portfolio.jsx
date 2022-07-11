@@ -1,5 +1,5 @@
 import React from 'react';
-import Projects from '../../assets/portfolio.images'
+import Projects from '../../assets/data/portfolio.data'
 
 import './portfolio.css'
 

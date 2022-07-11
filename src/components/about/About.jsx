@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/img/me-about.jpg'
 
 const about = () => {
     return (
@@ -18,6 +18,8 @@ const about = () => {
 
                 <div className="about__content">
                     <div className="about__cards">
+
+
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Education</h5>
@@ -30,11 +32,6 @@ const about = () => {
                             <small>Graduate - Censa, system technique</small>
                         </article>
 
-                        {/* <article className='about__card'>
-                            <FaAward className='about__icon' />
-                            <h5>My projects</h5>
-                            <small>Projects done in academlo</small>
-                        </article> */}
                     </div>
 
                     <p>I am a Full-Stack Web programming student at Academlo, in my current career at Academlo I have worked on projects with HTML, CSS, JavaScript, React.js and I am currently studying the backend module with Node.js, I am always willing to learn and continue expanding my knowledge in this wonderful world of web programming </p>

@@ -1,6 +1,8 @@
 import React from 'react';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import './footer.css'
+import Permalink from '../../assets/data/footer.data'
+
 
 const Footer = () => {
     return (
@@ -8,11 +10,12 @@ const Footer = () => {
         <a href="#" className='footer__logo'>Harley G.V</a>
 
         <ul className="permalinks">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+            {
+                Permalink.map(link => (
+                    <li key={link.id}><a href={link.link}>{link.name}</a></li>
+                ))
+            }
         </ul>
 
         <div className="footer__socials">
@@ -21,7 +24,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__copyright">
-            <small> made by Harley Guerra student of academlo.</small>
+            <small> Harley Guerra Vergara.<br/>Academlo Student</small>
         </div>
        </footer>
     );
