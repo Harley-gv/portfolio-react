@@ -1,7 +1,8 @@
 import React from 'react';
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import './footer.css'
 import Permalink from '../../assets/data/footer.data'
+import icon from '../../assets/data/footerIcon.data'
+
 
 
 const Footer = () => {
@@ -19,8 +20,9 @@ const Footer = () => {
         </ul>
 
         <div className="footer__socials">
-            <a href="https://www.linkedin.com/in/harley-enrique-guerra-vergara-70b77b173/" target='_blank'><FaLinkedinIn /></a>
-            <a href="https://github.com/Harley-gv" target='_blank'><FaGithub /></a>
+              {icon.map(icon => (
+                  <a href={icon.url} target='_blank' key={icon.id}>{icon.icon}</a>
+              ))}   
         </div>
 
         <div className="footer__copyright">

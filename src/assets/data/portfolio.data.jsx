@@ -10,7 +10,7 @@ export default [
         "img": pokedex,
         "github": "https://github.com/Harley-gv/pokedex",
         "demo": "https://fluffy-cucurucho-0a139d.netlify.app",
-        "description": "web project with react , redux and protected routes consuming pokeapi"
+        "description": "proyecto web con React, Redux y Rutas Protegidas consumiendo pokeAPI "
     },
 
     {
@@ -19,7 +19,7 @@ export default [
         "img": morty,
         "github": "https://github.com/Harley-gv/rick_morty_react-app",
         "demo": "https://leafy-lollipop-016390.netlify.app",
-        "description": "rick and morty web project with react , consuming  Rick and Morty API"
+        "description": "Proyecto web con React, utilizando Axios para el consumo de Rick and Morty API"
     },
       
      
