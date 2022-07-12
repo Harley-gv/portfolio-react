@@ -10,7 +10,7 @@ const Experience = () => {
             <h2>Skills</h2>
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    <h3>Skills</h3>
                     <div className="experience__content">
                         {
                             Frontend.map(front=> (
