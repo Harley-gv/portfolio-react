@@ -23,5 +23,6 @@ export default [
         "name": "Algoritmos",
         "icon": <AiOutlineCodeSandbox/>,
     },
+ 
 
 ]
