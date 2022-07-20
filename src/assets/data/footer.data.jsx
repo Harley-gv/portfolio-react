@@ -1,27 +1,27 @@
 export default [
     {
         "id": "1",
-        "name": "Home",
+        "name": "Inicio",
         "link": "#",
     },
     {
         "id": "2",
-        "name": "About",
+        "name": "Sobre Mi",
         "link": "#about",
     },
     {
         "id": "3",
-        "name": "Skills",
+        "name": "Habilidades",
         "link": "#experience",
     },
     {
         "id": "4",
-        "name": "Portfolio",
+        "name": "Portafolio",
         "link": "#portfolio",
     },
     {
         "id": "5",
-        "name": "Contact",
+        "name": "Contacto",
         "link": "#contact",
     },
 ]

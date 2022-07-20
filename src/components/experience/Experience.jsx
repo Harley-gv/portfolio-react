@@ -6,11 +6,11 @@ import './experience.css'
 const Experience = () => {
     return (
         <section id='experience'>
-            <h5>What Skills I Have</h5>
-            <h2>Skills</h2> 
+            <h5>que habilidades tengo</h5>
+            <h2>Habilidades</h2> 
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    <h3>Frontend</h3>
                     <div className="experience__content">
                         {
                             Frontend.map(front=> (
@@ -27,7 +27,7 @@ const Experience = () => {
                 </div>
 
                 <div className="experience__backend">
-                    <h3>Backend Development</h3>
+                    <h3>Backend</h3>
                     <div className="experience__content">
                         {
                             Backend.map(back => (

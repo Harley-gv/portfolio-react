@@ -1,13 +1,14 @@
 import React from 'react';
-import { FaAward } from 'react-icons/fa'
 import './about.css'
+import {FaAward} from 'react-icons/fa'
 import ME from '../../assets/img/me-about.jpg'
+import About from '../../assets/data/about.data'
 
 const about = () => {
     return (
         <section id='about'>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <h5>conoce un poco</h5>
+            <h2>Sobre Mi</h2>
 
             <div className="container about___container">
                 <div className="about__me">
@@ -19,24 +20,24 @@ const about = () => {
                 <div className="about__content">
                     <div className="about__cards">
 
+                        {
+                            About.map(card => (
+                                <div>
+                                    <article className='about__card'>
+                                        <FaAward className='about__icon' />
+                                         <h5>Estudios</h5>
+                                        <small>{card.description} - {card.institute}</small>
+                                    </article>
+                                </div>
 
-                        <article className='about__card'>
-                            <FaAward className='about__icon' />
-                            <h5>Education</h5>
-                            <small>Student - Academlo, Full Stack Web Development</small>
-                        </article>
-
-                        <article className='about__card'>
-                            <FaAward className='about__icon' />
-                            <h5>Education</h5>
-                            <small>Graduate - Censa, system technique</small>
-                        </article>
+                            ))
+                        }
 
                     </div>
 
-                    <p>I am a Full-Stack Web programming student at Academlo, in my current career at Academlo I have worked on projects with HTML, CSS, JavaScript, React.js and I am currently studying the backend module with Node.js, I am always willing to learn and continue expanding my knowledge in this wonderful world of web programming </p>
+                    <p>Soy Harley Guerra, técnico en sistemas y desarrollador Frontend, he trabajo en proyectos con HTML, CSS, JavaScript, React.js, actualmente me encuentro ampliando mis conocimientos en el backend con node.js de la mano de ACADEMLO con la meta de llegar a ser desarrollador web full-stack en un futuro</p>
 
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <a href="#contact" className='btn btn-primary'>Hablemos</a>
                 </div>
             </div>
         </section>
