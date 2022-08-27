@@ -35,7 +35,7 @@ const about = () => {
 
                     </div>
 
-                    <p>Soy Harley Guerra, técnico en sistemas y desarrollador Web, he trabajo en proyectos con HTML, CSS, JavaScript, React.js, actualmente me encuentro ampliando mis conocimientos en el backend con node.js de la mano de ACADEMLO con la meta de llegar a ser desarrollador web full-stack en un futuro</p>
+                    <p>Soy Harley Guerra, técnico en sistemas y desarrollador Web Egresado del programa Full-Stack Web Development and Computer Science  en Academlo, he trabajo en proyectos desde el Frontend con HTML, CSS, JavaScript, React.js y desde del Backend con Node, Express, PostgreSQL y Squelize </p>
 
                     <a href="#contact" className='btn btn-primary'>Hablemos</a>
                 </div>
