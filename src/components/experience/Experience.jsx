@@ -1,6 +1,7 @@
 import React from 'react';
 import Frontend from '../../assets/data/frontend.data'
 import Backend from '../../assets/data/backend.data'
+import cloud from '../../assets/data/cloud.data';
 import './experience.css'
 
 const Experience = () => {
@@ -42,6 +43,25 @@ const Experience = () => {
                     </div>
 
                 </div>
+
+                <div className="experience__cloud">
+                    <h3>cloud</h3>
+                    <div className="experience__content">
+                        {
+                            cloud.map(cloud=> (
+                                <article className='experience__details' key={cloud.id}>
+                                    {cloud.icon}
+                                    <h4>{cloud.name}</h4>
+
+                                </article>
+                            ))
+                        }
+                    </div>
+
+
+                </div>
+                
+
             </div>
         </section>
     );
