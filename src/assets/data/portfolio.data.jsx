@@ -28,8 +28,6 @@ export default [
         "img": portfolio,
         "github": "https://github.com/Harley-gv/portfolio-react",
         "demo": "#",
-        "description": "Proyecto realizado con React, simulando la data, consumiéndola desde arrays"
+        "description": "Proyecto realizado con React, simulando la data, consumiéndola desde un array"
     },
-      
-     
 ]

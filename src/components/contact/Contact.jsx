@@ -38,14 +38,14 @@ const Contact = () => {
                     <article className="contact__option">
                         <AiOutlineWhatsApp className='contact__option-icon' />
                         <h4>WhatsApp</h4>
-                        <h5>+57 3005935898</h5>
-                        <a href="https://wa.me/+573113740130">Enviar Mensaje</a>
+                        <h5>+57 3107304753</h5>
+                        <a href="https://wa.me/+573107304753">Enviar Mensaje</a>
                     </article>
 
                     <article className="contact__option">
                         <BsTelephone className='contact__option-icon' />
                         <h4>Llámame</h4>
-                        <h5>+57 3005935898</h5>
+                        <h5>+57 3107304753</h5>
                     </article>
 
                 </div>
